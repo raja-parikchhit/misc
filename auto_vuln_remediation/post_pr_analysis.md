@@ -25,7 +25,7 @@ The goal is not only to fix failed PRs. The larger goal is to make every PR an o
 
 The system has two loops:
 
-1. **Remediation loop** — detects an issue, creates a fix, validates it, assigns confidence, and creates a PR.
+1. **Remediation loop** — Analyses an issue, creates a fix, validates it, assigns confidence, and creates a PR.
 2. **Learning loop** — revisits the PR after some time, checks what happened, learns from feedback and successful fixes, and optionally repairs technical failures.
 
 ```mermaid
